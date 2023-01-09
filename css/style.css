@@ -4,8 +4,12 @@
     font-family: 'Work Sans', sans-serif;
     color: #151414;
     font-size: 16px;
+    font-weight: 400;
 }
 /* General style */
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
 .primary-color{
     color: #737272;
 }
@@ -30,7 +34,9 @@
     font-size: 20px;
     font-weight: 600;
 }
-
+.w-50 {
+    width: 50%;
+}
 /* Banner */
 .banner{
     background-image: url(../images/banner/banner3.png);
@@ -57,4 +63,34 @@
 }
 .banner .button{
     color: #005FAC;
+}
+
+/* Failure section */
+.failure-content {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.failure-content-image img {
+    width: 100%;
+}
+
+.failure-content-image {
+    padding-right: 85px;
+}
+.failure-content-txt {
+    transform: translateY(200px);
+}
+.failure-content-txt h3 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.failure-content-txt p,
+.failure-content-txt li{
+    color: #444343;
+}
+.failure-content-txt li {
+    list-style: none;
+    line-height: 26px;
 }
