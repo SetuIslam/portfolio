@@ -10,6 +10,9 @@
 h1,h2,h3,h4,h5,h6{
     font-weight: 600;
 }
+li {
+    list-style: none;
+}
 .primary-color{
     color: #737272;
 }
@@ -44,6 +47,9 @@ h1,h2,h3,h4,h5,h6{
 .w-50 {
     width: 50%;
 }
+.display-flex{
+    display: flex;
+}
 /* Banner */
 .banner{
     background-image: url(../images/banner/banner3.png);
@@ -74,7 +80,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* Failure section */
 .failure-content {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     padding: 30px 0;
 }
@@ -104,7 +110,7 @@ h1,h2,h3,h4,h5,h6{
     padding: 50px 0;
 }
 .my-plan-content {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
 }
 .my-plan-card img {
@@ -124,4 +130,64 @@ h1,h2,h3,h4,h5,h6{
 .gradiant-image img {
     width: 100%;
     padding: 50px 0;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #151414;
+    padding: 100px 0;
+}
+.footer h2,
+.footer h3,
+.footer h4,
+.footer p{
+    color: #ffffff;
+}
+.footer-text h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.footer-text p {
+    line-height: 26px;
+}
+.contact-info{
+    padding: 15px 0 20px;
+}
+.footer ul li {
+    padding-right: 15px;
+}
+.footer ul li {
+    padding-right: 15px;
+}
+
+.footer-text {
+    width: 45%;
+    margin-right: 20%;
+}
+.footer-newsleter h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.input-form {
+    width: 325px;
+    height: 25px;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.input-form::placeholder {
+    color: #ffffff;
+  }
+  form .button {
+    background-color: #005FAC;
+    color: #ffffff;
+    padding: 18px 30px;
+    width: 170px;
+    border-radius: 8px;
 }
