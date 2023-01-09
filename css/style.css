@@ -20,6 +20,13 @@ h1,h2,h3,h4,h5,h6{
     max-width: 1140px;
     margin: 0 auto;
 }
+.text-center{
+    text-align: center;
+}
+.section-title h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
 .portfolio-button{
     width: 160px;
     height: 60px;
@@ -82,10 +89,7 @@ h1,h2,h3,h4,h5,h6{
 .failure-content-txt {
     transform: translateY(200px);
 }
-.failure-content-txt h3 {
-    font-size: 40px;
-    margin-bottom: 25px;
-}
+
 .failure-content-txt p,
 .failure-content-txt li{
     color: #444343;
@@ -93,4 +97,31 @@ h1,h2,h3,h4,h5,h6{
 .failure-content-txt li {
     list-style: none;
     line-height: 26px;
+}
+
+/* My plans */
+.my-plan{
+    padding: 50px 0;
+}
+.my-plan-content {
+    display: flex;
+    justify-content: space-between;
+}
+.my-plan-card img {
+    width: 90px;
+    height: 90px;
+}
+
+.my-plan-card h3 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.my-plan-card p {
+    font-size: 20px;
+    color: #737272;
+}
+.gradiant-image img {
+    width: 100%;
+    padding: 50px 0;
 }
